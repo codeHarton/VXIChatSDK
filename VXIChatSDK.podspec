@@ -137,7 +137,7 @@ Test
 
 
    spec.dependency "Socket.IO-Client-Swift", "~> 15.1.0"
-   spec.vendored_frameworks = "VXIChatSDK/VXIChatSDK_Iphone.framework"
+   spec.vendored_frameworks = 'VXIChatSDK.framework'
    spec.swift_versions = "5.0"
 
 
