@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "VXIChatSDK"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A short description of VXIChatSDK."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Test
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/codeHarton/VXIChatSDK.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/codeHarton/VXIChatSDK.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -137,7 +137,7 @@ Test
 
 
    spec.dependency "Socket.IO-Client-Swift", "~> 15.1.0"
-   spec.vendored_frameworks = 'VXIChatSDK.framework'
+   spec.vendored_frameworks = 'Framework/VXIChatSDK.framework'
    spec.swift_versions = "5.0"
 
 
