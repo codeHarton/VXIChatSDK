@@ -1,6 +1,0 @@
-framework module VXIChatSDK {
-  umbrella header "VXIChatSDK.h"
-
-  export *
-  module * { export * }
-}
