@@ -65,10 +65,10 @@ Test
   #
 
    spec.platform     = :ios
-   spec.platform     = :ios, "9.0"
+   #spec.platform     = :ios, "8.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+   spec.ios.deployment_target = "8.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -130,12 +130,15 @@ Test
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # spec.requires_arc = true
+   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   spec.dependency "Socket.IO-Client-Swift", "~> 15.1.0"
-spec.vendored_frameworks = "VXIChatSDK/VXIChatSDK_Iphone.framework"
+   
 
+
+   spec.dependency "Socket.IO-Client-Swift", "~> 15.1.0"
+   spec.vendored_frameworks = "VXIChatSDK/VXIChatSDK_Iphone.framework"
+   spec.swift_versions = "5.0"
 
 
 end
